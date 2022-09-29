@@ -1,0 +1,70 @@
+.container2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 8%;
+  }
+  .content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .content-box {
+    display:  block !important;
+  }
+  .box-border {
+    display: none !important;
+  }
+  #clearAll{
+		padding: 12px;
+		background: #ffa500;
+		border: 2px solid black !important;
+		border-radius: 12px;
+		margin: 5px;
+		color: white;
+	}
+
+	#clearAll:hover{
+		background-color: #f7c76e;
+	}
+	#Download{
+		padding: 12px;
+		background: #1cc71e;
+		color: white;
+		border-radius: 12px;
+		margin: 5px;
+	}
+	#Download:hover{
+		background: #73f475;
+	}
+
+	.choose_image{
+		margin-top: 10%;
+		border: 2px solid #ffca28;
+		border-radius: 20px;
+		background: #fff176;
+	}
+	.choose_image:hover{
+		cursor: pointer;
+	}
+	p#hint {
+	color: rgba(19, 19, 19, 0.5);
+	font-size: 1.2em;
+	margin: 8px;
+	}
+
+	#selectedImage {
+		display: none;
+	}
+	#remove_img_btn{
+		display: block;
+		padding: 2px;
+		background: none;
+		border-radius: 12px;
+	}
+	#remove_img_btn:hover{
+		background-color: red;
+		color: white;
+	}
